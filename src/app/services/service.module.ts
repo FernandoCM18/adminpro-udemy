@@ -11,7 +11,8 @@ import {
   LoginGuardGuard,
   AdminGuard,
   HospitalService,
-  MedicoService
+  MedicoService,
+  VerificaTokenGuard
 } from './service.index';
 
 import { ModalUploadService } from '../components/modal-upload/modal-upload.service';
@@ -28,7 +29,8 @@ import { ModalUploadService } from '../components/modal-upload/modal-upload.serv
     LoginGuardGuard,
     AdminGuard,
     HospitalService,
-    MedicoService
+    MedicoService,
+    VerificaTokenGuard
   ],
   imports: [
     CommonModule,
